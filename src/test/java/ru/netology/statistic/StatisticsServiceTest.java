@@ -17,7 +17,6 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
-
     @Test
     void findMaxBelowIncome() {
         StatisticsService service = new StatisticsService();
